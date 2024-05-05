@@ -1,4 +1,4 @@
-const Tutor = require('../models/Tutor');
+const Tutor = require('../models/tutorModel');
 const tutorService = require('../services/tutorService');
 
 exports.getAllTutors = async (req, res) => {

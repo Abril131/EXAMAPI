@@ -5,14 +5,8 @@ const tutorSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  lastname: {
-    typr: String,
-    required: true
-  },
-  subject: {
-    type: String,
-    required: truen
-  },
+  // Otros campos relacionados con los tutores
 });
 
 module.exports = mongoose.model('Tutor', tutorSchema);
+
